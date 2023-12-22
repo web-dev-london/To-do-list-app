@@ -3,7 +3,7 @@ window.addEventListener('load', () => {
   const input = document.querySelector('#task-input');
   const list_el = document.querySelector('#tasks');
 
-  // It will stop refreshing the page
+  // It will stop refreshing the page & Event Flow
   form.addEventListener('submit', (e) => {
     e.preventDefault();
 
